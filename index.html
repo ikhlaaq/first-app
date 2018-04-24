@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="eng" ng-app="firstApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>First App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+</head>
+<body>
+<section ng-controller="FirstCtrl">
+    <h1>{{name}}</h1>
+    <div class="fruit-basket" ng-repeat="fruit in fruits">
+        <li>{{fruit}}</li>
+    </div>
+    
+        
+    </div>
+
+
+</section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+</body>
+</html>
